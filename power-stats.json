@@ -220,18 +220,7 @@
     "BOMB_MINE": {
         "attack": 98,
         "trigger-radius": 35,
-        "activation-delay": 500,
-        "spawn-locations": [{
-                "x": 0,
-                "y": 0,
-                "angle": -30
-            },
-            {
-                "x": 0,
-                "y": 0,
-                "angle": 30
-            }
-        ]
+        "activation-delay": 500
     },
     "BOMB_TIMER": {
         "attack": 142,
@@ -342,10 +331,10 @@
 
     "PWR_180": {
         "defense": 70,
-        "cooldown": 6000,
+        "cooldown": 6500,
 
-        "hole-radius": 30,
-        "hole-in-front": 30,
+        "hole-radius": 40,
+        "hole-in-front": 45,
         "game-mode": {
             "TEAMS": {
                 "cooldown": 8000
