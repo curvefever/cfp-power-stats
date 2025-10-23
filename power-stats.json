@@ -220,9 +220,19 @@
     "BOMB_MINE": {
         "attack": 98,
         "trigger-radius": 35,
-        "activation-delay": 500
+        "activation-delay": 500,
+        "spawn-locations": [{
+                "x": 0,
+                "y": 0,
+                "angle": -30
+            },
+            {
+                "x": 0,
+                "y": 0,
+                "angle": 30
+            }
+        ]
     },
-
     "BOMB_TIMER": {
         "attack": 142,
         "trigger-radius": 60,
