@@ -172,12 +172,12 @@
 
     "ITEM_THICK": {
         "attack": 130,
-        "thickness-multiplier": 1.75
+        "thickness-multiplier": 1.6
     },
 
     "ITEM_LOWREZ": {
         "attack": 126,
-        "intensity": 13
+        "intensity": 11
     },
 
     "ITEM_TRIPPY": {
@@ -188,19 +188,19 @@
     "ITEM_BLIND": {
         "attack": 121,
         "intensity": 0.00,
-        "effect-duration": 2000
+        "effect-duration": 1600
     },
 
     "ITEM_CLOCKBLOCK": {
         "attack": 121,
         "cooldown-multiplier": 0,
-        "effect-duration": 6000
+        "effect-duration": 5000
     },
     
     "ITEM_SPEEDY": {
         "attack": 112,
         "effect-duration": 2000,
-        "speed-multiplier": 2,
+        "speed-multiplier": 1.8,
         "rotate-multiplier": 1.25,
         "ease-in-duration": 0,
         "ease-out-duration": 0
@@ -214,7 +214,7 @@
     "ITEM_STEERLESS": {
         "attack": 115,
         "effect-start-delay": 0,
-        "rotate-multiplier": 0.7
+        "rotate-multiplier": 0.75
     },
 
     "BOMB_MINE": {
@@ -282,14 +282,19 @@
         "ease-out-duration": 0,
         "effect-duration": 3000,
         "speed-multiplier": 2,
-        "rotate-multiplier": 1.65
+        "rotate-multiplier": 1.65,
+                "game-mode": {
+            "TEAMS": {
+        "initial-cooldown": 7500,
+            }
+        }
     },
 
     "PWR_SHIELD": {
         "defense": 400,
         "effect-duration": 1500,
         "radius": 25,
-        "bounce-attack-modifier": 0.8,
+        "bounce-attack-modifier": 2.0,
         "bounce": true,
         "cooldown": 5000
     },
@@ -299,7 +304,7 @@
         "cooldown": 6500,
 
         "thickness-multiplier": 0.50,
-        "rotate-multiplier": 1.15,
+        "rotate-multiplier": 1.10,
         "effect-duration": 5000
     },
 
@@ -312,7 +317,7 @@
 
     "PWR_HOOK": {
         "defense": 50,
-        "cooldown": 6000,
+        "cooldown": 7000,
 
         "effect-duration": 3500,
         "angle": 90
@@ -333,11 +338,11 @@
         "defense": 70,
         "cooldown": 6500,
 
-        "hole-radius": 30,
+        "hole-radius": 25,
         "hole-in-front": 30,
         "game-mode": {
             "TEAMS": {
-                "cooldown": 8000
+                "cooldown": 6500
             }
         }
     },
@@ -355,7 +360,7 @@
         "explode-radius-multiplier": 3,
         "game-mode": {
             "TEAMS": {
-                "cooldown": 8000
+                "cooldown": 7000
             }
         }
     },
