@@ -331,7 +331,12 @@
         "throw-speed": 5,
         "range": 1200,
         "copy-direction": true,
-        "freeze-on-schedule": true
+        "freeze-on-schedule": true,
+        "game-mode": {
+            "TEAMS": {
+                "cooldown": 10000
+            }
+        }
     },
 
     "PWR_180": {
