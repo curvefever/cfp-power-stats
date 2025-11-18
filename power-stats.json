@@ -301,11 +301,11 @@
 
     "PWR_THIN": {
         "defense": 130,
-        "cooldown": 6500,
+        "cooldown": 4000,
 
         "thickness-multiplier": 0.50,
         "rotate-multiplier": 1.10,
-        "effect-duration": 5000
+        "effect-duration": 5500
     },
 
     "PWR_HIDE": {
