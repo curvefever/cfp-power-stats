@@ -311,7 +311,6 @@
     "PWR_HIDE": {
         "defense": 250,
         "cooldown": 5700,
-        "initial-cooldown": 1000,
 
         "effect-duration": 3500
     },
@@ -321,7 +320,12 @@
         "cooldown": 7000,
 
         "effect-duration": 3500,
-        "angle": 90
+        "angle": 90,
+        "game-mode": {
+            "TEAMS": {
+                "cooldown": 5000
+            }
+        }
     },
 
     "PWR_TELEPORT": {
