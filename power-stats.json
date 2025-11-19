@@ -283,9 +283,9 @@
         "effect-duration": 3000,
         "speed-multiplier": 2,
         "rotate-multiplier": 1.65,
-                "game-mode": {
+        "game-mode": {
             "TEAMS": {
-        "initial-cooldown": 7500,
+                "cooldown": 7500
             }
         }
     },
