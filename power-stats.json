@@ -37,7 +37,7 @@
         "defense": 0,
         "cooldown": 4000,
 
-        "travel-radius": 10,
+        "travel-radius": 1,
         "trigger-radius": 39,
         "activation-delay": 550,
         "throw-speed": 5,
@@ -86,6 +86,7 @@
     },
     "SHOT_MULTI": {
         "attack": 118,
+        "cooldown": 3250,
         "initial-cooldown": 4000,
         "spawn-locations": [{
                 "x": 0,
@@ -122,7 +123,7 @@
     },
 
     "SHOT_HOMING": {
-        "attack": 55,
+        "attack": 62,
         "cooldown": 3500,
         "initial-cooldown": 4500,
         "explosion-radius": 7.5,
@@ -141,7 +142,7 @@
         "cooldown": 6000,
         "thickness": 8,
         "windup-time": 600,
-        "rotate-multiplier": 0.04,
+        "rotate-multiplier": 0.03,
         "speed-multiplier": 0.3,
         "duration": 80,
         "distance": null
@@ -172,7 +173,7 @@
 
     "ITEM_THICK": {
         "attack": 130,
-        "thickness-multiplier": 1.6
+        "thickness-multiplier": 1.65
     },
 
     "ITEM_LOWREZ": {
@@ -182,7 +183,7 @@
 
     "ITEM_TRIPPY": {
         "attack": 121,
-        "intensity": 4
+        "intensity": 3
     },
 
     "ITEM_BLIND": {
@@ -256,7 +257,7 @@
         "ease-out-duration": 500,
         "effect-duration": 2000,
         "speed-multiplier": 0.4,
-        "rotate-multiplier": 1.2,
+        "rotate-multiplier": 1.1,
         "game-mode": {
             "TEAMS": {
                 "cooldown": 7000
@@ -276,7 +277,7 @@
     },
 
     "PWR_SPEED": {
-        "defense": 110,
+        "defense": 150,
 
         "ease-in-duration": 0,
         "ease-out-duration": 0,
@@ -285,7 +286,8 @@
         "rotate-multiplier": 1.65,
         "game-mode": {
             "TEAMS": {
-                "cooldown": 7500
+                "initial-cooldown": 7000,
+                "cooldown": 6000
             }
         }
     },
@@ -294,7 +296,7 @@
         "defense": 400,
         "effect-duration": 1500,
         "radius": 25,
-        "bounce-attack-modifier": 2.0,
+        "bounce-attack-modifier": 0.8,
         "bounce": true,
         "cooldown": 5000
     },
@@ -309,7 +311,7 @@
     },
 
     "PWR_HIDE": {
-        "defense": 250,
+        "defense": 190,
         "cooldown": 5700,
 
         "effect-duration": 3500
@@ -319,13 +321,8 @@
         "defense": 50,
         "cooldown": 7000,
 
-        "effect-duration": 3500,
+        "effect-duration": 4000,
         "angle": 90,
-        "game-mode": {
-            "TEAMS": {
-                "cooldown": 5000
-            }
-        }
     },
 
     "PWR_TELEPORT": {
@@ -348,8 +345,8 @@
         "defense": 70,
         "cooldown": 6500,
 
-        "hole-radius": 25,
-        "hole-in-front": 30,
+        "hole-radius": 30,
+        "hole-in-front": 15,
         "game-mode": {
             "TEAMS": {
                 "cooldown": 6500
