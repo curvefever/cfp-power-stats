@@ -37,7 +37,7 @@
         "defense": 0,
         "cooldown": 4000,
 
-        "travel-radius": 1,
+        "travel-radius": 10,
         "trigger-radius": 39,
         "activation-delay": 550,
         "throw-speed": 5,
