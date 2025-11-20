@@ -322,7 +322,7 @@
         "cooldown": 7000,
 
         "effect-duration": 4000,
-        "angle": 90,
+        "angle": 90
     },
 
     "PWR_TELEPORT": {
