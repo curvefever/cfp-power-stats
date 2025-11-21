@@ -1,0 +1,114 @@
+{
+  "title": "Pickups",
+  "id": "Pickups.schema.json",
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "required": [
+    "min-interval",
+    "max-interval",
+    "start-spawn-count",
+    "spawn-start-delay",
+    "start-center-offset",
+    "radius",
+    "spawn-list",
+    "activate-delay",
+    "pickups"
+  ],
+  "properties": {
+    "min-interval": {
+      "type": "number",
+      "description": "Min amount of MS before a next pickup is scheduled."
+    },
+    "max-interval": {
+      "type": "number",
+      "description": "Max amount of MS before a next pickup is scheduled."
+    },
+    "start-spawn-count": {
+      "type": "number",
+      "description": "Amount of pickups to spawn at the start of a round."
+    },
+    "start-index-delay": {
+      "type": "number",
+      "description": "Amount of MS offset per index of start-pickups."
+    },
+    "spawn-start-delay": {
+      "type": "number",
+      "description": "Amount of MS before the first spawn is scheduled."
+    },
+    "start-center-offset": {
+      "type": "object",
+      "description": "Distance from the center for the initial spawns.",
+      "required": ["x", "y"],
+      "properties": {
+        "x": { "type": "number" },
+        "y": { "type": "number" }
+      }
+    },
+    "radius": {
+      "type": "number"
+    },
+    "spawn-padding": {
+      "type": "number",
+      "description": "Padding from the edge of the field where pickups can spawn."
+    },
+    "spawn-list": {
+      "type": "object",
+      "description": "List of pickups with their chance to spawn.",
+      "patternProperties": {
+        "^[A-Z_]+$": {
+          "type": "number",
+          "description": "Change to spawn relative to all elements in the list (can be decimal)."
+        }
+      }
+    },
+    "appear-delay": {
+      "type": "number",
+      "description": "Delay in MS before the pickup is activated (and shown visibily)."
+    },
+    "activate-delay": {
+      "type": "object",
+      "description": "Spawn-delays per effect-target in MS.",
+      "properties": {
+        "ALL": { "type": "number" },
+        "SELF": { "type": "number" },
+        "OTHER": { "type": "number" }
+      },
+      "additionalProperties": false
+    },
+    "pickups": {
+      "type": "object",
+      "description": "Configuration for each pickup.",
+      "patternProperties": {
+        "^[A-Z_]+$": {
+          "oneOf": [{ "$ref": "#/definitions/pickup" }, { "type": "string", "description": "Reference to configuration to use." }]
+        }
+      }
+    }
+  },
+
+  "definitions": {
+    "pickup": {
+      "type": "object",
+      "description": "Settings for effects to use.",
+      "required": ["time"],
+      "properties": {
+        "time": {
+          "type": "number",
+          "description": "Duration in MS of the effect."
+        },
+        "speed": {
+          "type": "number",
+          "description": "Speed multiplier."
+        },
+        "turn": {
+          "type": "number",
+          "description": "Turn-radius multiplier."
+        },
+        "size": {
+          "type": "number",
+          "description": "Radius multiplier."
+        }
+      }
+    }
+  }
+}

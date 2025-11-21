@@ -1,0 +1,100 @@
+{
+  "$schema": "./schemas/Pickups.schema.json",
+
+  "min-interval": 2500,
+  "max-interval": 3500,
+
+  "start-spawn-count-customs": 2,
+  "start-spawn-count-quickplay": 1,
+  "start-index-delay": 100,
+  "min-spawn-start-delay-customs": -1500,
+  "max-spawn-start-delay-customs": -1500,
+  "min-spawn-start-delay-quickplay": -1500,
+  "max-spawn-start-delay-quickplay": -1500,
+
+  "quickplay-respawn-delay": 1000,
+
+  "start-center-offset": { "x": 360, "y": 130 },
+
+  "radius": 20,
+  "spawn-padding": 40,
+
+  "field-size-multiplier": 1,
+
+  "spawn-list": {
+    "SPEED_ALL": 0,
+    "SLOW_ALL": 0,
+
+    "SPEED_SELF": 4,
+    "SLOW_SELF": 3,
+    "THIN_SELF": 3,
+
+    "SLOW_OTHER": 2,
+
+    "HOLE_SELF": 1,
+    "THICK_OTHER": 1,
+    "SPEED_OTHER": 1,
+
+    "REVERSE_OTHER": 0
+  },
+
+  "spawn-list-turret": {
+    "SPEED_SELF": 1.5,
+    "SLOW_SELF": 1.5,
+    "HOLE_SELF": 1,
+    "THIN_SELF": 2
+  },
+
+  "appear-delay": 1500,
+  "activate-delay": {
+    "ALL": 1000,
+    "SELF": 0,
+    "OTHER": 1000
+  },
+
+  "pickups": {
+    "SPEED_ALL": "SPEED",
+    "SPEED_SELF": {
+      "time": 3000,
+      "speed": 1.6,
+      "turn": 1.3
+    },
+    "SPEED_OTHER": "SPEED",
+    "SLOW_ALL": "SLOW",
+    "SLOW_SELF": {
+      "time": 10000,
+      "speed": 0.5,
+      "turn": 0.75
+    },
+    "SLOW_OTHER": "SLOW",
+    "HOLE_SELF": "HOLE",
+    "THIN_SELF": "THIN",
+    "THICK_OTHER": "THICK",
+    "REVERSE_OTHER": "REVERSE",
+
+    "SPEED": {
+      "time": 2000,
+      "speed": 1.6,
+      "turn": 1.3
+    },
+    "SLOW": {
+      "time": 5000,
+      "speed": 0.5,
+      "turn": 0.75
+    },
+    "HOLE": {
+      "time": 6000
+    },
+    "THIN": {
+      "time": 15000,
+      "size": 0.5
+    },
+    "THICK": {
+      "time": 7000,
+      "size": 2
+    },
+    "REVERSE": {
+      "time": 5000
+    }
+  }
+}
