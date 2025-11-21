@@ -116,7 +116,7 @@
         "bullet-size": 2,
         "range": 80,
         "shot-count": 7,
-        "shot-interval": 1,
+        "shot-interval": 0,
         "shot-spread": 19.6,
         "bullet-speed": 4,
         "cooldown": 5000
