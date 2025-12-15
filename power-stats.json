@@ -39,7 +39,7 @@
 
         "travel-radius": 10,
         "trigger-radius": 39,
-        "activation-delay": 550,
+        "activation-delay": 580,
         "throw-speed": 5,
         "effect-duration": 5000,
         "collide-while-moving": false
