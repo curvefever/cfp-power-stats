@@ -116,7 +116,7 @@
         "attack": 194,
         "bullet-size": 2,
         "range": 80,
-        "shot-count": 10,
+        "shot-count": 9,
         "shot-interval": 55,
         "shot-spread": 15.6,
         "bullet-speed": 4,
@@ -312,7 +312,7 @@
     },
 
     "PWR_HIDE": {
-        "defense": 190,
+        "defense": 250,
         "cooldown": 5700,
 
         "effect-duration": 3500
