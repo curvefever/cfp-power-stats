@@ -356,10 +356,10 @@
         "defense": 90,
         "cooldown": 3000,
 
-        "ease-in-duration": 150,
-        "ease-out-duration": 200,
+        "ease-in-duration": 170,
+        "ease-out-duration": 170,
         "effect-duration": 200,
-        "speed-multiplier": 5,
+        "speed-multiplier": 4.8,
         "rotate-multiplier": 0,
 
         "explode-radius-multiplier": 3,
