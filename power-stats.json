@@ -10,10 +10,11 @@
     "default_SHOT": {
         "attack": 0,
         "defense": 0,
-        "cooldown": 3000,
+        "cooldown": 4000,
+        "initial-cooldown": 6500,
 
         "bullet-size": 4,
-        "explosion-radius": 7.5,
+        "explosion-radius": 10.5,
         "bullet-speed": 5,
         "hole-radius": 0,
         "range": 999999
@@ -49,14 +50,12 @@
 
 
     "SHOT_SINGLE": {
-        "attack": 151,
-        "initial-cooldown": 4000,
+        "attack": 162,
         "charge-time": 0
     },
 
     "SHOT_DOUBLE": {
-        "attack": 131,
-        "initial-cooldown": 4000,
+        "attack": 137,
         "spawn-locations": [{
                 "x": 0,
                 "y": 0,
@@ -70,8 +69,7 @@
         ]
     },
     "SHOT_SIDE": {
-        "attack": 128,
-        "initial-cooldown": 4000,
+        "attack": 132,
         "spawn-locations": [{
                 "x": 0,
                 "y": 0,
@@ -85,9 +83,8 @@
         ]
     },
     "SHOT_MULTI": {
-        "attack": 118,
-        "cooldown": 3250,
-        "initial-cooldown": 4000,
+        "attack": 125,
+        "cooldown": 4250,
         "spawn-locations": [{
                 "x": 0,
                 "y": 0,
