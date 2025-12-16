@@ -354,7 +354,7 @@
 
     "PWR_BURST": {
         "defense": 90,
-        "cooldown": 6000,
+        "cooldown": 3000,
 
         "ease-in-duration": 200,
         "ease-out-duration": 0,
