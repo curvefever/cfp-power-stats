@@ -4,15 +4,10 @@
   "min-interval": 2500,
   "max-interval": 3500,
 
-  "start-spawn-count-customs": 2,
-  "start-spawn-count-quickplay": 1,
+  "start-spawn-count": 2,
   "start-index-delay": 100,
-  "min-spawn-start-delay-customs": -1500,
-  "max-spawn-start-delay-customs": -1500,
-  "min-spawn-start-delay-quickplay": -1500,
-  "max-spawn-start-delay-quickplay": -1500,
-
-  "quickplay-respawn-delay": 1000,
+  "min-spawn-start-delay": -1500,
+  "max-spawn-start-delay": -1500,
 
   "start-center-offset": { "x": 360, "y": 130 },
 
@@ -22,27 +17,31 @@
   "field-size-multiplier": 1,
 
   "spawn-list": {
-    "SPEED_ALL": 0,
-    "SLOW_ALL": 0,
-
-    "SPEED_SELF": 4,
-    "SLOW_SELF": 3,
-    "THIN_SELF": 3,
-
-    "SLOW_OTHER": 2,
-
+    "SPEED_SELF": 1,
+    "SLOW_SELF": 1,
     "HOLE_SELF": 1,
-    "THICK_OTHER": 1,
+    "THIN_SELF": 1,
+    "HIDE_SELF": 1,
+    "CORNER_SELF": 1,
+    "SMALL_TURNS_SELF": 1,
+    "SHIELD_SELF": 1,
+    "BOMB_SELF": 1,
+    "COOLDOWN_RESET_SELF": 1,
+
+    "SLOW_OTHER": 1,
     "SPEED_OTHER": 1,
+    "THICK_OTHER": 1,
+    "CORNER_OTHER": 1,
+    "REVERSE_OTHER": 1,
+    "STEER_LESS_OTHER": 1,
+    "TRIPPY_OTHER": 1,
+    "CLOCK_BLOCK_OTHER": 1,
+    "CHEESE_OTHER": 1,
 
-    "REVERSE_OTHER": 0
-  },
-
-  "spawn-list-turret": {
-    "SPEED_SELF": 1.5,
-    "SLOW_SELF": 1.5,
-    "HOLE_SELF": 1,
-    "THIN_SELF": 2
+    "SPEED_ALL": 1,
+    "HIDE_ALL": 1,
+    "CLOSING_BORDERS_ALL": 1,
+    "BUBBLES_ALL": 1
   },
 
   "appear-delay": 1500,
@@ -53,24 +52,40 @@
   },
 
   "pickups": {
-    "SPEED_ALL": "SPEED",
     "SPEED_SELF": {
       "time": 3000,
       "speed": 1.6,
       "turn": 1.3
     },
-    "SPEED_OTHER": "SPEED",
-    "SLOW_ALL": "SLOW",
     "SLOW_SELF": {
       "time": 10000,
       "speed": 0.5,
       "turn": 0.75
     },
-    "SLOW_OTHER": "SLOW",
+
     "HOLE_SELF": "HOLE",
     "THIN_SELF": "THIN",
+    "HIDE_SELF": "HIDE",
+    "CORNER_SELF": "CORNER",
+    "SMALL_TURNS_SELF": "SMALL_TURNS",
+    "SHIELD_SELF": "SHIELD",
+    "BOMB_SELF": "BOMB",
+    "COOLDOWN_RESET_SELF": "COOLDOWN_RESET",
+
+    "SLOW_OTHER": "SLOW",
+    "SPEED_OTHER": "SPEED",
     "THICK_OTHER": "THICK",
+    "CORNER_OTHER": "CORNER",
     "REVERSE_OTHER": "REVERSE",
+    "STEER_LESS_OTHER": "STEER_LESS",
+    "TRIPPY_OTHER": "TRIPPY",
+    "CLOCK_BLOCK_OTHER": "CLOCK_BLOCK",
+    "CHEESE_OTHER": "CHEESE",
+
+    "SPEED_ALL": "SPEED",
+    "HIDE_ALL": "HIDE",
+    "CLOSING_WALLS_ALL": "CLOSING_WALLS",
+    "BUBBLES_ALL": "BUBBLES",
 
     "SPEED": {
       "time": 2000,
@@ -95,6 +110,47 @@
     },
     "REVERSE": {
       "time": 5000
-    }
+    },
+    "CORNER": {
+      "time": 10000
+    },
+    "HIDE": {
+      "time": 5000
+    },
+    "SHIELD": {
+      "time": 5000,
+      "size": 25
+    },
+    "SMALL_TURNS": {
+      "time": 5000,
+      "turn": 1.5
+    },
+    "STEER_LESS": {
+      "time": 5000,
+      "turn": 0.7
+    },
+    "TRIPPY": {
+      "time": 5000,
+      "intensity": 4
+    },
+    "CLOCK_BLOCK": {
+      "time": 5000
+    },
+    "CHEESE": {
+      "time": 5000,
+      "intensity": 0.01
+    },
+    "CLOSING_WALLS": {
+      "time": 30000,
+      "scale": 0.1
+    },
+    "BUBBLES": {
+      "time": 5000,
+      "multiplier": 5.0
+    },
+    "BOMB": {
+      "size": 100
+    },
+    "COOLDOWN_RESET": {}
   }
 }
