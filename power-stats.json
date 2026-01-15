@@ -341,13 +341,13 @@
 
     "PWR_180": {
         "defense": 70,
-        "cooldown": 6000,
+        "cooldown": 4500,
 
-        "hole-radius": 30,
+        "hole-radius": 15,
         "hole-in-front": 20,
         "game-mode": {
             "TEAMS": {
-                "cooldown": 7000
+                "cooldown": 5000
             }
         }
     },
