@@ -343,8 +343,8 @@
         "defense": 70,
         "cooldown": 4500,
 
-        "hole-radius": 20,
-        "hole-in-front": 25,
+        "hole-radius": 18,
+        "hole-in-front": 36,
         "game-mode": {
             "TEAMS": {
                 "cooldown": 5000
@@ -358,8 +358,8 @@
 
         "ease-in-duration": 170,
         "ease-out-duration": 30,
-        "effect-duration": 200,
-        "speed-multiplier": 5,
+        "effect-duration": 400,
+        "speed-multiplier": 10,
         "rotate-multiplier": 0,
 
         "explode-radius-multiplier": 3,
