@@ -343,8 +343,8 @@
         "defense": 70,
         "cooldown": 4500,
 
-        "hole-radius": 15,
-        "hole-in-front": 20,
+        "hole-radius": 20,
+        "hole-in-front": 25,
         "game-mode": {
             "TEAMS": {
                 "cooldown": 5000
