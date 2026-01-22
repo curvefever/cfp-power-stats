@@ -343,8 +343,8 @@
         "defense": 70,
         "cooldown": 4500,
 
-        "hole-radius": 18,
-        "hole-in-front": 36,
+        "hole-radius": 16,
+        "hole-in-front": 40,
         "game-mode": {
             "TEAMS": {
                 "cooldown": 5000
@@ -354,12 +354,12 @@
 
     "PWR_BURST": {
         "defense": 90,
-        "cooldown": 3000,
+        "cooldown": 6000,
 
-        "ease-in-duration": 170,
-        "ease-out-duration": 30,
-        "effect-duration": 400,
-        "speed-multiplier": 10,
+        "ease-in-duration": 0,
+        "ease-out-duration": 0,
+        "effect-duration": 200,
+        "speed-multiplier": 5,
         "rotate-multiplier": 0,
 
         "explode-radius-multiplier": 3,
