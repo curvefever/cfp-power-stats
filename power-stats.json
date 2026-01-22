@@ -341,24 +341,24 @@
 
     "PWR_180": {
         "defense": 70,
-        "cooldown": 4500,
+        "cooldown": 5500,
 
         "hole-radius": 15,
-        "hole-in-front": 35,
+        "hole-in-front": 32,
         
         "game-mode": {
             "TEAMS": {
-                "cooldown": 5000
+                "cooldown": 5500
             }
         }
     },
 
     "PWR_BURST": {
-        "defense": 90,
-        "cooldown": 6000,
+        "defense": 0,
+        "cooldown": 6300,
 
-        "ease-in-duration": 170,
-        "ease-out-duration": 30,
+        "ease-in-duration": 0,
+        "ease-out-duration": 200,
         "effect-duration": 200,
         "speed-multiplier": 5,
         "rotate-multiplier": 0,
