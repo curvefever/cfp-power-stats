@@ -345,6 +345,27 @@
 
         "hole-radius": 16,
         "hole-in-front": 35,
+        
+        "spawn-locations": [{
+                "x": 0,
+                "y": 0,
+                "angle": -45
+            },
+            {
+                "x": 0,
+                "y": 0,
+                "angle": -135
+            },
+            {
+                "x": 50,
+                "y": 0,
+                "angle": 45
+            },
+            {
+                "x": 0,
+                "y": 0,
+                "angle": 135
+            },
         "game-mode": {
             "TEAMS": {
                 "cooldown": 5000
