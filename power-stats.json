@@ -343,29 +343,8 @@
         "defense": 70,
         "cooldown": 4500,
 
-        "hole-radius": 16,
-        "hole-in-front": 35,
-        
-        "spawn-locations": [{
-                "x": 0,
-                "y": 0,
-                "angle": -45
-            },
-            {
-                "x": 0,
-                "y": 0,
-                "angle": -135
-            },
-            {
-                "x": 50,
-                "y": 0,
-                "angle": 45
-            },
-            {
-                "x": 0,
-                "y": 0,
-                "angle": 135
-            },
+        "hole-radius": 12,
+        "hole-in-front": 32,
         "game-mode": {
             "TEAMS": {
                 "cooldown": 5000
@@ -377,8 +356,8 @@
         "defense": 90,
         "cooldown": 6000,
 
-        "ease-in-duration": 0,
-        "ease-out-duration": 0,
+        "ease-in-duration": 170,
+        "ease-out-duration": 30,
         "effect-duration": 200,
         "speed-multiplier": 5,
         "rotate-multiplier": 0,
