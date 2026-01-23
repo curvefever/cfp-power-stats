@@ -358,8 +358,8 @@
         "cooldown": 6300,
 
         "ease-in-duration": 0,
-        "ease-out-duration": 5,
-        "effect-duration": 40,
+        "ease-out-duration": 50,
+        "effect-duration": 50,
         "speed-multiplier": 20,
         "rotate-multiplier": 0,
 
