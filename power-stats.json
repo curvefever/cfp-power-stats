@@ -358,9 +358,9 @@
         "cooldown": 6300,
 
         "ease-in-duration": 0,
-        "ease-out-duration": 10,
-        "effect-duration": 10,
-        "speed-multiplier": 100,
+        "ease-out-duration": 20,
+        "effect-duration": 20,
+        "speed-multiplier": 50,
         "rotate-multiplier": 0,
 
         "explode-radius-multiplier": 3,
