@@ -360,7 +360,7 @@
         "ease-in-duration": 0,
         "ease-out-duration": 50,
         "effect-duration": 50,
-        "speed-multiplier": 30,
+        "speed-multiplier": 19,
         "rotate-multiplier": 0,
 
         "explode-radius-multiplier": 3,
