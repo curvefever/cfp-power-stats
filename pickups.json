@@ -2,16 +2,16 @@
   "$schema": "./schemas/Pickups.schema.json",
 
   "min-interval": 500,
-  "max-interval": 5000,
+  "max-interval": 2500,
 
-  "start-spawn-count": 0,
+  "start-spawn-count": 4,
   "start-index-delay": 100,
   "min-spawn-start-delay": -1500,
   "max-spawn-start-delay": -1500,
 
   "start-center-offset": { "x": 360, "y": 130 },
 
-  "radius": 40,
+  "radius": 25,
   "spawn-padding": 40,
 
   "field-size-multiplier": 1,
