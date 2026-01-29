@@ -58,7 +58,7 @@
       "turn": 1.65
     },
     "SLOW_SELF": {
-      "time": 5000,
+      "time": 7500,
       "speed": 0.5,
       "turn": 1.1
     },
@@ -137,12 +137,12 @@
       "time": 5000
     },
     "CHEESE": {
-      "time": 5000,
+      "time": 10000,
       "intensity": 0.01
     },
     "CLOSING_WALLS": {
       "time": 30000,
-      "scale": 0.5
+      "scale": 0.1
     },
     "BUBBLES": {
       "time": 5000,
