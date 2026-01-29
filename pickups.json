@@ -1,17 +1,17 @@
 {
   "$schema": "./schemas/Pickups.schema.json",
 
-  "min-interval": 500,
+  "min-interval": 1500,
   "max-interval": 2500,
 
-  "start-spawn-count": 4,
-  "start-index-delay": 100,
+  "start-spawn-count": 8,
+  "start-index-delay": 5000,
   "min-spawn-start-delay": -1500,
   "max-spawn-start-delay": -1500,
 
   "start-center-offset": { "x": 360, "y": 130 },
 
-  "radius": 25,
+  "radius": 20,
   "spawn-padding": 40,
 
   "field-size-multiplier": 1,
@@ -44,11 +44,11 @@
     "BUBBLES_ALL": 1
   },
 
-  "appear-delay": 500,
+  "appear-delay": 1000,
   "activate-delay": {
-    "ALL": 500,
+    "ALL": 1000,
     "SELF": 0,
-    "OTHER": 500
+    "OTHER": 1000
   },
 
   "pickups": {
