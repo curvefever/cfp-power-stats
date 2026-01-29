@@ -123,7 +123,7 @@
     },
     "SMALL_TURNS": {
       "time": 5000,
-      "turn": 1.5
+      "turn": 2
     },
     "STEER_LESS": {
       "time": 5000,
