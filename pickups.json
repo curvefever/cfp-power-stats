@@ -89,8 +89,8 @@
 
     "SPEED": {
       "time": 2000,
-      "speed": 1.8,
-      "turn": 1.25
+      "speed": 2,
+      "turn": 1.65
     },
     "SLOW": {
       "time": 5000,
