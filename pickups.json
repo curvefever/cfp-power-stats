@@ -4,8 +4,8 @@
   "min-interval": 1500,
   "max-interval": 2500,
 
-  "start-spawn-count": 8,
-  "start-index-delay": 5000,
+  "start-spawn-count": 0,
+  "start-index-delay": 100,
   "min-spawn-start-delay": -1500,
   "max-spawn-start-delay": -1500,
 
