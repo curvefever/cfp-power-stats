@@ -141,8 +141,8 @@
       "intensity": 0.01
     },
     "CLOSING_WALLS": {
-      "time": 3000000,
-      "scale": 0.1
+      "time": 30000,
+      "scale": 0.2
     },
     "BUBBLES": {
       "time": 5000,
