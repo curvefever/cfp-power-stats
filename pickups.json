@@ -142,7 +142,7 @@
     },
     "CLOSING_WALLS": {
       "time": 30000,
-      "scale": 0.2
+      "scale": 0.5
     },
     "BUBBLES": {
       "time": 5000,
