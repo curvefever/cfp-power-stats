@@ -138,7 +138,7 @@
     },
     "CHEESE": {
       "time": 10000,
-      "intensity": 0.005
+      "intensity": 0.01
     },
     "CLOSING_WALLS": {
       "time": 30000,
