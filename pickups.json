@@ -88,7 +88,7 @@
     "BUBBLES_ALL": "BUBBLES",
 
     "SPEED": {
-      "time": 2000,
+      "time": 2500,
       "speed": 2,
       "turn": 1.65
     },
