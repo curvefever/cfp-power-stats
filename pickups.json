@@ -106,7 +106,7 @@
     },
     "THICK": {
       "time": 5000,
-      "size": 1.65
+      "size": 2
     },
     "REVERSE": {
       "time": 5000
@@ -127,11 +127,11 @@
     },
     "STEER_LESS": {
       "time": 5000,
-      "turn": 0.75
+      "turn": 0.6
     },
     "TRIPPY": {
       "time": 5000,
-      "intensity": 3
+      "intensity": 4
     },
     "CLOCK_BLOCK": {
       "time": 5000
