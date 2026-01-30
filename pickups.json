@@ -19,7 +19,7 @@
   "spawn-list": {
     "SPEED_SELF": 10,
     "SLOW_SELF": 10,
-    "HOLE_SELF": 8,
+    "HOLE_SELF": 10,
     "THIN_SELF": 10,
     "HIDE_SELF": 10,
     "CORNER_SELF": 10,
@@ -28,18 +28,18 @@
     "BOMB_SELF": 10,
     "COOLDOWN_RESET_SELF": 10,
 
-    "SLOW_OTHER": 8,
-    "SPEED_OTHER": 8,
-    "THICK_OTHER": 8,
-    "CORNER_OTHER": 8,
-    "REVERSE_OTHER": 8,
-    "STEER_LESS_OTHER": 8,
-    "TRIPPY_OTHER": 8,
-    "CLOCK_BLOCK_OTHER": 8,
-    "CHEESE_OTHER": 8,
+    "SLOW_OTHER": 10,
+    "SPEED_OTHER": 10,
+    "THICK_OTHER": 10,
+    "CORNER_OTHER": 10,
+    "REVERSE_OTHER": 10,
+    "STEER_LESS_OTHER": 10,
+    "TRIPPY_OTHER": 10,
+    "CLOCK_BLOCK_OTHER": 10,
+    "CHEESE_OTHER": 10,
 
-    "SPEED_ALL": 8,
-    "HIDE_ALL": 8,
+    "SPEED_ALL": 10,
+    "HIDE_ALL": 10,
     "CLOSING_BORDERS_ALL": 10,
     "BUBBLES_ALL": 10
   },
@@ -95,7 +95,7 @@
     "SLOW": {
       "time": 5000,
       "speed": 0.5,
-      "turn": 1.1
+      "turn": 0.8
     },
     "HOLE": {
       "time": 5000
