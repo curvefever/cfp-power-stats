@@ -19,7 +19,7 @@
   "spawn-list": {
     "SPEED_SELF": 10,
     "SLOW_SELF": 10,
-    "HOLE_SELF": 10,
+    "HOLE_SELF": 8,
     "THIN_SELF": 10,
     "HIDE_SELF": 10,
     "CORNER_SELF": 10,
@@ -28,8 +28,8 @@
     "BOMB_SELF": 10,
     "COOLDOWN_RESET_SELF": 10,
 
-    "SLOW_OTHER": 10,
-    "SPEED_OTHER": 10,
+    "SLOW_OTHER": 8,
+    "SPEED_OTHER": 8,
     "THICK_OTHER": 10,
     "CORNER_OTHER": 10,
     "REVERSE_OTHER": 10,
@@ -40,8 +40,8 @@
 
     "SPEED_ALL": 10,
     "HIDE_ALL": 10,
-    "CLOSING_BORDERS_ALL": 10,
-    "BUBBLES_ALL": 10
+    "CLOSING_BORDERS_ALL": 8,
+    "BUBBLES_ALL": 15
   },
 
   "appear-delay": 1000,
