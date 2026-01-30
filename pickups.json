@@ -1,7 +1,7 @@
 {
   "$schema": "./schemas/Pickups.schema.json",
 
-  "min-interval": 500,
+  "min-interval": 100,
   "max-interval": 4000,
 
   "start-spawn-count": 0,
