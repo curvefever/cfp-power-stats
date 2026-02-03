@@ -84,7 +84,7 @@
 
     "SPEED_ALL": "SPEED",
     "HIDE_ALL": "HIDE",
-    "CLOSING_WALLS_ALL": "CLOSING_WALLS",
+    "CLOSING_BORDERS_ALL": "CLOSING_BORDERS",
     "BUBBLES_ALL": "BUBBLES",
 
     "SPEED": {
@@ -102,7 +102,8 @@
     },
     "THIN": {
       "time": 10000,
-      "size": 0.5
+      "size": 0.5,
+      "turn": 1.1
     },
     "THICK": {
       "time": 5000,
@@ -140,8 +141,8 @@
       "time": 10000,
       "intensity": 0.01
     },
-    "CLOSING_WALLS": {
-      "time": 30000,
+    "CLOSING_BORDERS": {
+      "time": 20000,
       "scale": 0.1
     },
     "BUBBLES": {
