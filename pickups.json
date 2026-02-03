@@ -103,7 +103,7 @@
     "THIN": {
       "time": 10000,
       "size": 0.5,
-      "turn": 1.1
+      "turn": 1.9
     },
     "THICK": {
       "time": 5000,
