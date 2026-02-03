@@ -142,7 +142,7 @@
       "intensity": 0.01
     },
     "CLOSING_BORDERS": {
-      "time": 20000,
+      "time": 10000,
       "scale": 0.1
     },
     "BUBBLES": {
