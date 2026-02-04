@@ -344,7 +344,7 @@
         "cooldown": 6000,
 
         "hole-radius": 30,
-        "hole-in-front": 60,
+        "hole-in-front": 15,
         
         "game-mode": {
             "TEAMS": {
