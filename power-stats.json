@@ -305,7 +305,7 @@
 
         "thickness-multiplier": 0.50,
         "rotate-multiplier": 1.10,
-        "effect-duration": 5500
+        "effect-duration": 5000
     },
 
     "PWR_HIDE": {
