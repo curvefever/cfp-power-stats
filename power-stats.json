@@ -85,7 +85,7 @@
     },
     "SHOT_MULTI": {
         "attack": 124,
-        "cooldown": 4250,
+        "cooldown": 4000,
         "spawn-locations": [{
                 "x": 0,
                 "y": 0,
