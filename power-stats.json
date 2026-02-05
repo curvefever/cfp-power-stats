@@ -122,12 +122,12 @@
     },
 
     "SHOT_HOMING": {
-        "attack": 62,
-        "cooldown": 3500,
-        "initial-cooldown": 4500,
+        "attack": 67,
+        "cooldown": 3000,
+        "initial-cooldown": 4250,
         "explosion-radius": 7.5,
         "bullet-speed": 3,
-        "search-radius": 60,
+        "search-radius": 45,
         "turn-angle": 30
     },
 
