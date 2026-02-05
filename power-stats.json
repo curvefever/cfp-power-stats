@@ -10,8 +10,8 @@
     "default_SHOT": {
         "attack": 0,
         "defense": 0,
-        "cooldown": 4000,
-        "initial-cooldown": 4000,
+        "cooldown": 3750,
+        "initial-cooldown": 4250,
 
         "bullet-size": 4,
         "explosion-radius": 7.5,
@@ -37,6 +37,7 @@
         "attack": 0,
         "defense": 0,
         "cooldown": 4000,
+        "initial-cooldown": 4250,
 
         "travel-radius": 10,
         "trigger-radius": 39,
