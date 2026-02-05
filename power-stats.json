@@ -250,7 +250,7 @@
 
     "PWR_BRAKE": {
         "defense": 120,
-        "cooldown": 5000,
+        "cooldown": 5250,
 
         "ease-in-duration": 0,
         "ease-out-duration": 500,
@@ -266,7 +266,7 @@
 
     "PWR_JUMP": {
         "defense": 70,
-        "cooldown": 5500,
+        "cooldown": 5750,
         "effect-duration": 500,
         "game-mode": {
             "TEAMS": {
@@ -356,12 +356,12 @@
 
     "PWR_BURST": {
         "defense": 90,
-        "cooldown": 6300,
+        "cooldown": 6000,
 
         "ease-in-duration": 0,
-        "ease-out-duration": 100,
-        "effect-duration": 100,
-        "speed-multiplier": 10,
+        "ease-out-duration": 200,
+        "effect-duration": 200,
+        "speed-multiplier": 4,
         "rotate-multiplier": 0,
 
         "explode-radius-multiplier": 3,
