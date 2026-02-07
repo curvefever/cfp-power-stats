@@ -320,7 +320,7 @@
         "defense": 50,
         "cooldown": 7000,
 
-        "effect-duration": 4000,
+        "effect-duration": 5000,
         "angle": 90
     },
 
