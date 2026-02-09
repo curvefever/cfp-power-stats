@@ -309,11 +309,17 @@
         "effect-duration": 5000
     },
 
+
     "PWR_HIDE": {
         "defense": 250,
         "cooldown": 5700,
 
-        "effect-duration": 3500
+        "effect-duration": 3500,
+        "game-mode": {
+            "TEAMS": {
+                "cooldown": 5500
+            }
+        }
     },
 
     "PWR_HOOK": {
@@ -321,7 +327,12 @@
         "cooldown": 7000,
 
         "effect-duration": 4500,
-        "angle": 90
+        "angle": 90,
+        "game-mode": {
+            "TEAMS": {
+                "cooldown": 6000
+            }
+        }
     },
 
     "PWR_TELEPORT": {
