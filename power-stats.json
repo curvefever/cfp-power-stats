@@ -342,7 +342,7 @@
 
     "PWR_180": {
         "defense": 70,
-        "cooldown": 6000,
+        "cooldown": 6100,
 
         "hole-radius": 20,
         "hole-in-front": 32,
