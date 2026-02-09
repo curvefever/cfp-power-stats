@@ -270,7 +270,7 @@
         "effect-duration": 500,
         "game-mode": {
             "TEAMS": {
-                "cooldown": 7000
+                "cooldown": 7250
             }
         }
     },
