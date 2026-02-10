@@ -28,20 +28,20 @@
     "BOMB_SELF": 10,
     "COOLDOWN_RESET_SELF": 10,
 
-    "SLOW_OTHER": 8,
-    "SPEED_OTHER": 8,
+    "SLOW_OTHER": 10,
+    "SPEED_OTHER": 5,
     "THICK_OTHER": 10,
     "CORNER_OTHER": 8,
     "REVERSE_OTHER": 8,
-    "STEER_LESS_OTHER": 10,
-    "TRIPPY_OTHER": 10,
-    "CLOCK_BLOCK_OTHER": 10,
+    "STEER_LESS_OTHER": 8,
+    "TRIPPY_OTHER": 8,
+    "CLOCK_BLOCK_OTHER": 8,
     "CHEESE_OTHER": 10,
 
-    "SPEED_ALL": 10,
-    "HIDE_ALL": 10,
-    "CLOSING_BORDERS_ALL": 8,
-    "BUBBLES_ALL": 15
+    "SPEED_ALL": 5,
+    "HIDE_ALL": 5,
+    "CLOSING_BORDERS_ALL": 5,
+    "BUBBLES_ALL": 5
   },
 
   "appear-delay": 1000,
@@ -150,7 +150,7 @@
       "multiplier": 5.0
     },
     "BOMB": {
-      "size": 100
+      "size": 1000
     },
     "COOLDOWN_RESET": {}
   }
