@@ -123,12 +123,12 @@
       "size": 25
     },
     "SMALL_TURNS": {
-      "time": 5000,
+      "time": 7500,
       "turn": 1.5
     },
     "STEER_LESS": {
       "time": 5000,
-      "turn": 0.6
+      "turn": 0.7
     },
     "TRIPPY": {
       "time": 5000,
