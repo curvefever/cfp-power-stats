@@ -19,7 +19,7 @@
   "spawn-list": {
     "SPEED_SELF": 10,
     "SLOW_SELF": 10,
-    "HOLE_SELF": 8,
+    "HOLE_SELF": 5,
     "THIN_SELF": 10,
     "HIDE_SELF": 10,
     "CORNER_SELF": 10,
@@ -147,7 +147,7 @@
     },
     "BUBBLES": {
       "time": 5000,
-      "multiplier": 5.0
+      "multiplier": 3.0
     },
     "BOMB": {
       "size": 1000
