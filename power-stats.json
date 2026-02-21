@@ -1,390 +1,414 @@
 {
-    "item-manual-time": 600,
-    "item-throw-speed-multiplier": 0,
-    "item-throw-cooldown-multiplier": 0,
-    "no-module-defense": 0,
-    "max-steal-percentage": {
-        "TEAMS": 0.5
-    },
+  "item-manual-time": 600,
+  "item-throw-speed-multiplier": 0,
+  "item-throw-cooldown-multiplier": 0,
+  "no-module-defense": 0,
+  "max-steal-percentage": {
+    "TEAMS": 0.5
+  },
 
-    "default_SHOT": {
-        "attack": 0,
-        "defense": 0,
-        "cooldown": 3750,
-        "initial-cooldown": 4250,
+  "default_SHOT": {
+    "attack": 0,
+    "attack-flat": 0,
+    "defense": 0,
+    "cooldown": 3750,
+    "initial-cooldown": 4250,
 
-        "bullet-size": 4,
-        "explosion-radius": 7.5,
-        "bullet-speed": 5,
-        "hole-radius": 0,
-        "range": 999999
-    },
-    "default_BOMB": {
-        "attack": 0,
-        "defense": 0,
-        "cooldown": 5500,
+    "bullet-size": 4,
+    "explosion-radius": 7.5,
+    "bullet-speed": 5,
+    "hole-radius": 0,
+    "range": 999999
+  },
+  "default_BOMB": {
+    "attack": 0,
+    "attack-flat": 0,
+    "defense": 0,
+    "cooldown": 5500,
 
-        "travel-radius": 1,
-        "trigger-radius": 40,
-        "activation-delay": 600,
-        "throw-speed": 5
-    },
-    "default_POWER": {
-        "defense": 0,
+    "travel-radius": 1,
+    "trigger-radius": 40,
+    "activation-delay": 600,
+    "throw-speed": 5
+  },
+  "default_POWER": {
+    "defense": 0,
+    "cooldown": 6000
+  },
+  "default_ITEM": {
+    "attack": 0,
+    "attack-flat": 0,
+    "defense": 0,
+    "cooldown": 4000,
+    "initial-cooldown": 4250,
+
+    "travel-radius": 10,
+    "trigger-radius": 39,
+    "activation-delay": 580,
+    "throw-speed": 5,
+    "effect-duration": 5000,
+    "collide-while-moving": false
+  },
+  "default_SPECIAL": {},
+
+  "SHOT_SINGLE": {
+    "attack": 158,
+    "attack-flat": 24,
+    "charge-time": 0
+  },
+
+  "SHOT_DOUBLE": {
+    "attack": 136,
+    "attack-flat": 20,
+    "spawn-locations": [
+      {
+        "x": 0,
+        "y": 0,
+        "angle": -30
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "angle": 30
+      }
+    ]
+  },
+  "SHOT_SIDE": {
+    "attack": 133,
+    "attack-flat": 20,
+    "spawn-locations": [
+      {
+        "x": 0,
+        "y": 0,
+        "angle": 90
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "angle": -90
+      }
+    ]
+  },
+  "SHOT_MULTI": {
+    "attack": 124,
+    "attack-flat": 19,
+    "cooldown": 4000,
+    "spawn-locations": [
+      {
+        "x": 0,
+        "y": 0,
+        "angle": -45
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "angle": -135
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "angle": 45
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "angle": 135
+      }
+    ]
+  },
+
+  "SHOT_SCATTER": {
+    "attack": 194,
+    "attack-flat": 29,
+    "bullet-size": 2,
+    "range": 80,
+    "shot-count": 9,
+    "shot-interval": 55,
+    "shot-spread": 15.6,
+    "bullet-speed": 4,
+    "cooldown": 5000,
+    "initial-cooldown": 5000
+  },
+
+  "SHOT_HOMING": {
+    "attack": 67,
+    "attack-flat": 10,
+    "cooldown": 3000,
+    "initial-cooldown": 4250,
+    "explosion-radius": 7.5,
+    "bullet-speed": 3,
+    "search-radius": 45,
+    "turn-angle": 32
+  },
+
+  "SHOT_LASER": {
+    "not-use-group": true,
+
+    "max-attack": 120,
+    "max-attack-flat": 18,
+    "min-attack": 120,
+    "min-attack-flat": 18,
+    "min-attack-angle": 15,
+    "defense": 0,
+    "cooldown": 6000,
+    "thickness": 8,
+    "windup-time": 600,
+    "rotate-multiplier": 0.035,
+    "speed-multiplier": 0.3,
+    "duration": 80,
+    "distance": null
+  },
+
+  "SHOT_SABER": {
+    "not-use-group": true,
+
+    "attack": 103,
+    "attack-flat": 15,
+    "defense": 0,
+    "cooldown": 6000,
+    "thickness": 4,
+    "windup-time": 400,
+    "rotate-multiplier": 1,
+    "speed-multiplier": 0.7,
+    "duration": 1000,
+    "distance": 80
+  },
+
+  "PWR_ZAP": {
+    "attack": 182,
+    "attack-flat": 27,
+    "cooldown": 5500,
+    "initial-cooldown": 5500,
+
+    "effect-duration": 400,
+    "radius": 25
+  },
+
+  "ITEM_THICK": {
+    "attack": 130,
+    "attack-flat": 20,
+    "thickness-multiplier": 1.65
+  },
+
+  "ITEM_LOWREZ": {
+    "attack": 126,
+    "attack-flat": 19,
+    "intensity": 11
+  },
+
+  "ITEM_TRIPPY": {
+    "attack": 121,
+    "attack-flat": 18,
+    "intensity": 3
+  },
+
+  "ITEM_BLIND": {
+    "attack": 121,
+    "attack-flat": 18,
+    "intensity": 0.0,
+    "effect-duration": 1600
+  },
+
+  "ITEM_CLOCKBLOCK": {
+    "attack": 121,
+    "attack-flat": 18,
+    "cooldown-multiplier": 0,
+    "effect-duration": 5000
+  },
+
+  "ITEM_SPEEDY": {
+    "attack": 112,
+    "attack-flat": 17,
+    "effect-duration": 2000,
+    "speed-multiplier": 1.8,
+    "rotate-multiplier": 1.25,
+    "ease-in-duration": 0,
+    "ease-out-duration": 0
+  },
+
+  "ITEM_REVERSE": {
+    "attack": 105,
+    "attack-flat": 16,
+    "effect-start-delay": 0
+  },
+
+  "ITEM_STEERLESS": {
+    "attack": 115,
+    "attack-flat": 17,
+    "effect-start-delay": 0,
+    "rotate-multiplier": 0.75
+  },
+
+  "BOMB_MINE": {
+    "attack": 104,
+    "attack-flat": 16,
+    "trigger-radius": 35,
+    "activation-delay": 500
+  },
+  "BOMB_TIMER": {
+    "attack": 142,
+    "attack-flat": 21,
+    "trigger-radius": 60,
+    "activation-delay": 500,
+    "explode-delay": 400,
+    "cooldown": 6500
+  },
+
+  "BOMB_TRIGGER": {
+    "attack": 123,
+    "attack-flat": 18,
+    "trigger-radius": 30,
+    "activation-delay": 450,
+    "stop-moving-on-trigger": true,
+    "explode-delay": 0
+  },
+
+  "BOMB_STEALTH": {
+    "attack": 96,
+    "attack-flat": 14,
+    "trigger-radius": 35,
+    "reveal-duration": 500,
+    "reveal-interval": 2000,
+    "life-duration": 20000,
+    "blink-speed": 1,
+    "hidden-alpha": 0
+  },
+
+  "PWR_BRAKE": {
+    "defense": 120,
+    "cooldown": 5250,
+
+    "ease-in-duration": 0,
+    "ease-out-duration": 500,
+    "effect-duration": 2000,
+    "speed-multiplier": 0.4,
+    "rotate-multiplier": 1.1,
+    "game-mode": {
+      "TEAMS": {
+        "cooldown": 7500
+      }
+    }
+  },
+
+  "PWR_JUMP": {
+    "defense": 70,
+    "cooldown": 5750,
+    "effect-duration": 500,
+    "game-mode": {
+      "TEAMS": {
+        "cooldown": 7250
+      }
+    }
+  },
+
+  "PWR_SPEED": {
+    "defense": 150,
+
+    "ease-in-duration": 0,
+    "ease-out-duration": 0,
+    "effect-duration": 3000,
+    "speed-multiplier": 2,
+    "rotate-multiplier": 1.65,
+    "game-mode": {
+      "TEAMS": {
+        "initial-cooldown": 7000,
         "cooldown": 6000
-    },
-    "default_ITEM": {
-        "attack": 0,
-        "defense": 0,
-        "cooldown": 4000,
-        "initial-cooldown": 4250,
+      }
+    }
+  },
 
-        "travel-radius": 10,
-        "trigger-radius": 39,
-        "activation-delay": 580,
-        "throw-speed": 5,
-        "effect-duration": 5000,
-        "collide-while-moving": false
-    },
-    "default_SPECIAL": {
-    },
+  "PWR_SHIELD": {
+    "defense": 400,
+    "effect-duration": 1500,
+    "radius": 25,
+    "bounce-attack-modifier": 0.8,
+    "bounce": true,
+    "cooldown": 5000
+  },
 
+  "PWR_THIN": {
+    "defense": 130,
+    "cooldown": 4000,
 
-    "SHOT_SINGLE": {
-        "attack": 158,
-        "charge-time": 0
-    },
+    "thickness-multiplier": 0.5,
+    "rotate-multiplier": 1.1,
+    "effect-duration": 5000
+  },
 
-    "SHOT_DOUBLE": {
-        "attack": 136,
-        "spawn-locations": [{
-                "x": 0,
-                "y": 0,
-                "angle": -30
-            },
-            {
-                "x": 0,
-                "y": 0,
-                "angle": 30
-            }
-        ]
-    },
-    "SHOT_SIDE": {
-        "attack": 133,
-        "spawn-locations": [{
-                "x": 0,
-                "y": 0,
-                "angle": 90
-            },
-            {
-                "x": 0,
-                "y": 0,
-                "angle": -90
-            }
-        ]
-    },
-    "SHOT_MULTI": {
-        "attack": 124,
-        "cooldown": 4000,
-        "spawn-locations": [{
-                "x": 0,
-                "y": 0,
-                "angle": -45
-            },
-            {
-                "x": 0,
-                "y": 0,
-                "angle": -135
-            },
-            {
-                "x": 0,
-                "y": 0,
-                "angle": 45
-            },
-            {
-                "x": 0,
-                "y": 0,
-                "angle": 135
-            }
-        ]
-    },
+  "PWR_HIDE": {
+    "defense": 250,
+    "cooldown": 5700,
 
+    "effect-duration": 3500,
+    "game-mode": {
+      "TEAMS": {
+        "cooldown": 5500
+      }
+    }
+  },
 
-    "SHOT_SCATTER": {
-        "attack": 194,
-        "bullet-size": 2,
-        "range": 80,
-        "shot-count": 9,
-        "shot-interval": 55,
-        "shot-spread": 15.6,
-        "bullet-speed": 4,
-        "cooldown": 5000
-    },
+  "PWR_HOOK": {
+    "defense": 50,
+    "cooldown": 7000,
 
-    "SHOT_HOMING": {
-        "attack": 67,
-        "cooldown": 3000,
-        "initial-cooldown": 4250,
-        "explosion-radius": 7.5,
-        "bullet-speed": 3,
-        "search-radius": 45,
-        "turn-angle": 32
-    },
+    "effect-duration": 4500,
+    "angle": 90,
+    "game-mode": {
+      "TEAMS": {
+        "cooldown": 6000
+      }
+    }
+  },
 
-    "SHOT_LASER": {
-        "not-use-group": true,
+  "PWR_TELEPORT": {
+    "defense": 150,
+    "cooldown": 6000,
 
-        "max-attack": 120,
-        "min-attack": 120,
-        "min-attack-angle": 15,
-        "defense": 0,
-        "cooldown": 6000,
-        "thickness": 8,
-        "windup-time": 600,
-        "rotate-multiplier": 0.035,
-        "speed-multiplier": 0.3,
-        "duration": 80,
-        "distance": null
-    },
+    "activation-delay": 400,
+    "throw-speed": 5,
+    "range": 1200,
+    "copy-direction": true,
+    "freeze-on-schedule": true,
+    "game-mode": {
+      "TEAMS": {
+        "cooldown": 10000
+      }
+    }
+  },
 
+  "PWR_180": {
+    "defense": 70,
+    "cooldown": 6000,
 
-    "SHOT_SABER": {
-        "not-use-group": true,
+    "hole-radius": 23,
+    "hole-in-front": 25,
 
-        "attack": 103,
-        "defense": 0,
-        "cooldown": 6000,
-        "thickness": 4,
-        "windup-time": 400,
-        "rotate-multiplier": 1,
-        "speed-multiplier": 0.7,
-        "duration": 1000,
-        "distance": 80
-    },
+    "game-mode": {
+      "TEAMS": {
+        "cooldown": 7000
+      }
+    }
+  },
 
-    "PWR_ZAP": {
-        "attack": 182,
-        "cooldown": 5500,
+  "PWR_BURST": {
+    "defense": 90,
+    "cooldown": 6000,
 
-        "effect-duration": 400,
-        "radius": 25
-    },
+    "ease-in-duration": 0,
+    "ease-out-duration": 200,
+    "effect-duration": 200,
+    "speed-multiplier": 4.25,
+    "rotate-multiplier": 0,
 
-    "ITEM_THICK": {
-        "attack": 130,
-        "thickness-multiplier": 1.65
-    },
+    "explode-radius-multiplier": 3,
+    "game-mode": {
+      "TEAMS": {
+        "cooldown": 7000
+      }
+    }
+  },
 
-    "ITEM_LOWREZ": {
-        "attack": 126,
-        "intensity": 11
-    },
+  "RANDOM": {},
 
-    "ITEM_TRIPPY": {
-        "attack": 121,
-        "intensity": 3
-    },
-
-    "ITEM_BLIND": {
-        "attack": 121,
-        "intensity": 0.00,
-        "effect-duration": 1600
-    },
-
-    "ITEM_CLOCKBLOCK": {
-        "attack": 121,
-        "cooldown-multiplier": 0,
-        "effect-duration": 5000
-    },
-    
-    "ITEM_SPEEDY": {
-        "attack": 112,
-        "effect-duration": 2000,
-        "speed-multiplier": 1.8,
-        "rotate-multiplier": 1.25,
-        "ease-in-duration": 0,
-        "ease-out-duration": 0
-    },
-
-    "ITEM_REVERSE": {
-        "attack": 105,
-        "effect-start-delay": 0
-    },
-
-    "ITEM_STEERLESS": {
-        "attack": 115,
-        "effect-start-delay": 0,
-        "rotate-multiplier": 0.75
-    },
-
-    "BOMB_MINE": {
-        "attack": 104,
-        "trigger-radius": 35,
-        "activation-delay": 500
-    },
-    "BOMB_TIMER": {
-        "attack": 142,
-        "trigger-radius": 60,
-        "activation-delay": 500,
-        "explode-delay": 400,
-        "cooldown": 6500
-    },
-
-    "BOMB_TRIGGER": {
-        "attack": 123,
-        "trigger-radius": 30,
-        "activation-delay": 450,
-        "stop-moving-on-trigger": true,
-        "explode-delay": 0
-    },
-
-    "BOMB_STEALTH": {
-        "attack": 96,
-        "trigger-radius": 35,
-        "reveal-duration": 500,
-        "reveal-interval": 2000,
-        "life-duration": 20000,
-        "blink-speed": 1,
-        "hidden-alpha": 0
-    },
-
-    "PWR_BRAKE": {
-        "defense": 120,
-        "cooldown": 5250,
-
-        "ease-in-duration": 0,
-        "ease-out-duration": 500,
-        "effect-duration": 2000,
-        "speed-multiplier": 0.4,
-        "rotate-multiplier": 1.1,
-        "game-mode": {
-            "TEAMS": {
-                "cooldown": 7500
-            }
-        }
-    },
-
-    "PWR_JUMP": {
-        "defense": 70,
-        "cooldown": 5750,
-        "effect-duration": 500,
-        "game-mode": {
-            "TEAMS": {
-                "cooldown": 7250
-            }
-        }
-    },
-
-    "PWR_SPEED": {
-        "defense": 150,
-
-        "ease-in-duration": 0,
-        "ease-out-duration": 0,
-        "effect-duration": 3000,
-        "speed-multiplier": 2,
-        "rotate-multiplier": 1.65,
-        "game-mode": {
-            "TEAMS": {
-                "initial-cooldown": 7000,
-                "cooldown": 6000
-            }
-        }
-    },
-
-    "PWR_SHIELD": {
-        "defense": 400,
-        "effect-duration": 1500,
-        "radius": 25,
-        "bounce-attack-modifier": 0.8,
-        "bounce": true,
-        "cooldown": 5000
-    },
-
-    "PWR_THIN": {
-        "defense": 130,
-        "cooldown": 4000,
-
-        "thickness-multiplier": 0.50,
-        "rotate-multiplier": 1.10,
-        "effect-duration": 5000
-    },
-
-
-    "PWR_HIDE": {
-        "defense": 250,
-        "cooldown": 5700,
-
-        "effect-duration": 3500,
-        "game-mode": {
-            "TEAMS": {
-                "cooldown": 5500
-            }
-        }
-    },
-
-    "PWR_HOOK": {
-        "defense": 50,
-        "cooldown": 7000,
-
-        "effect-duration": 4500,
-        "angle": 90,
-        "game-mode": {
-            "TEAMS": {
-                "cooldown": 6000
-            }
-        }
-    },
-
-    "PWR_TELEPORT": {
-        "defense": 150,
-        "cooldown": 6000,
-
-        "activation-delay": 400,
-        "throw-speed": 5,
-        "range": 1200,
-        "copy-direction": true,
-        "freeze-on-schedule": true,
-        "game-mode": {
-            "TEAMS": {
-                "cooldown": 10000
-            }
-        }
-    },
-
-    "PWR_180": {
-        "defense": 70,
-        "cooldown": 6000,
-
-        "hole-radius": 23,
-        "hole-in-front": 25,
-        
-        "game-mode": {
-            "TEAMS": {
-                "cooldown": 7000
-            }
-        }
-    },
-
-    "PWR_BURST": {
-        "defense": 90,
-        "cooldown": 6000,
-
-        "ease-in-duration": 0,
-        "ease-out-duration": 200,
-        "effect-duration": 200,
-        "speed-multiplier": 4.25,
-        "rotate-multiplier": 0,
-
-        "explode-radius-multiplier": 3,
-        "game-mode": {
-            "TEAMS": {
-                "cooldown": 7000
-            }
-        }
-    },
-
-    "RANDOM": {
-    },
-
-    "$schema": "./power-stats.schema.json"
+  "$schema": "./schemas/Abilities.schema.json"
 }

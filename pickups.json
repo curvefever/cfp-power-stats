@@ -19,7 +19,7 @@
   "spawn-list": {
     "SPEED_SELF": 10,
     "SLOW_SELF": 10,
-    "HOLE_SELF": 5,
+    "HOLE_SELF": 8,
     "THIN_SELF": 10,
     "HIDE_SELF": 10,
     "CORNER_SELF": 10,
@@ -28,15 +28,15 @@
     "BOMB_SELF": 10,
     "COOLDOWN_RESET_SELF": 10,
 
-    "SLOW_OTHER": 10,
-    "SPEED_OTHER": 5,
-    "THICK_OTHER": 10,
+    "SLOW_OTHER": 8,
+    "SPEED_OTHER": 8,
+    "THICK_OTHER": 8,
     "CORNER_OTHER": 8,
     "REVERSE_OTHER": 8,
     "STEER_LESS_OTHER": 8,
     "TRIPPY_OTHER": 8,
     "CLOCK_BLOCK_OTHER": 8,
-    "CHEESE_OTHER": 10,
+    "CHEESE_OTHER": 8,
 
     "SPEED_ALL": 5,
     "HIDE_ALL": 5,
@@ -150,7 +150,7 @@
       "multiplier": 3.0
     },
     "BOMB": {
-      "size": 1000
+      "size": 100
     },
     "COOLDOWN_RESET": {}
   }
