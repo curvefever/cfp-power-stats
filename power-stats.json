@@ -60,7 +60,7 @@
 
   "SHOT_DOUBLE": {
     "attack": 136,
-    "attack-flat": 20,
+    "attack-flat": 21,
     "spawn-locations": [
       {
         "x": 0,
@@ -177,7 +177,7 @@
 
   "PWR_ZAP": {
     "attack": 182,
-    "attack-flat": 27,
+    "attack-flat": 26,
     "cooldown": 5500,
     "initial-cooldown": 5500,
 
@@ -248,7 +248,7 @@
   },
   "BOMB_TIMER": {
     "attack": 142,
-    "attack-flat": 21,
+    "attack-flat": 22,
     "trigger-radius": 60,
     "activation-delay": 500,
     "explode-delay": 400,
