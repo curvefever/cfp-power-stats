@@ -3,6 +3,7 @@
   "item-throw-speed-multiplier": 0,
   "item-throw-cooldown-multiplier": 0,
   "no-module-defense": 0,
+  "flat-score-exponent": 0.2,
   "max-steal-percentage": {
     "TEAMS": 0.5
   },
