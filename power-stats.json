@@ -54,13 +54,13 @@
 
   "SHOT_SINGLE": {
     "attack": 158,
-    "attack-flat": 28,
+    "attack-flat": 24,
     "charge-time": 0
   },
 
   "SHOT_DOUBLE": {
     "attack": 136,
-    "attack-flat": 24,
+    "attack-flat": 21,
     "spawn-locations": [
       {
         "x": 0,
@@ -76,7 +76,7 @@
   },
   "SHOT_SIDE": {
     "attack": 133,
-    "attack-flat": 23,
+    "attack-flat": 20,
     "spawn-locations": [
       {
         "x": 0,
@@ -92,7 +92,7 @@
   },
   "SHOT_MULTI": {
     "attack": 124,
-    "attack-flat": 22,
+    "attack-flat": 19,
     "cooldown": 4000,
     "spawn-locations": [
       {
@@ -120,7 +120,7 @@
 
   "SHOT_SCATTER": {
     "attack": 194,
-    "attack-flat": 34,
+    "attack-flat": 29,
     "bullet-size": 2,
     "range": 80,
     "shot-count": 9,
@@ -133,7 +133,7 @@
 
   "SHOT_HOMING": {
     "attack": 67,
-    "attack-flat": 12,
+    "attack-flat": 10,
     "cooldown": 3000,
     "initial-cooldown": 4250,
     "explosion-radius": 7.5,
@@ -146,9 +146,9 @@
     "not-use-group": true,
 
     "max-attack": 120,
-    "max-attack-flat": 21,
+    "max-attack-flat": 18,
     "min-attack": 120,
-    "min-attack-flat": 21,
+    "min-attack-flat": 18,
     "min-attack-angle": 15,
     "defense": 0,
     "cooldown": 6000,
@@ -164,7 +164,7 @@
     "not-use-group": true,
 
     "attack": 103,
-    "attack-flat": 18,
+    "attack-flat": 15,
     "defense": 0,
     "cooldown": 6000,
     "thickness": 4,
@@ -177,7 +177,7 @@
 
   "PWR_ZAP": {
     "attack": 182,
-    "attack-flat": 32,
+    "attack-flat": 26,
     "cooldown": 5500,
     "initial-cooldown": 5500,
 
@@ -187,39 +187,39 @@
 
   "ITEM_THICK": {
     "attack": 130,
-    "attack-flat": 23,
+    "attack-flat": 20,
     "thickness-multiplier": 1.65
   },
 
   "ITEM_LOWREZ": {
     "attack": 126,
-    "attack-flat": 22,
+    "attack-flat": 19,
     "intensity": 11
   },
 
   "ITEM_TRIPPY": {
     "attack": 121,
-    "attack-flat": 21,
+    "attack-flat": 18,
     "intensity": 3
   },
 
   "ITEM_BLIND": {
     "attack": 121,
-    "attack-flat": 21,
+    "attack-flat": 18,
     "intensity": 0.0,
     "effect-duration": 1600
   },
 
   "ITEM_CLOCKBLOCK": {
     "attack": 121,
-    "attack-flat": 21,
+    "attack-flat": 18,
     "cooldown-multiplier": 0,
     "effect-duration": 5000
   },
 
   "ITEM_SPEEDY": {
     "attack": 112,
-    "attack-flat": 20,
+    "attack-flat": 17,
     "effect-duration": 2000,
     "speed-multiplier": 1.8,
     "rotate-multiplier": 1.25,
@@ -229,26 +229,26 @@
 
   "ITEM_REVERSE": {
     "attack": 105,
-    "attack-flat": 18,
+    "attack-flat": 16,
     "effect-start-delay": 0
   },
 
   "ITEM_STEERLESS": {
     "attack": 115,
-    "attack-flat": 20,
+    "attack-flat": 17,
     "effect-start-delay": 0,
     "rotate-multiplier": 0.75
   },
 
   "BOMB_MINE": {
     "attack": 104,
-    "attack-flat": 18,
+    "attack-flat": 16,
     "trigger-radius": 35,
     "activation-delay": 500
   },
   "BOMB_TIMER": {
     "attack": 142,
-    "attack-flat": 25,
+    "attack-flat": 22,
     "trigger-radius": 60,
     "activation-delay": 500,
     "explode-delay": 400,
@@ -257,7 +257,7 @@
 
   "BOMB_TRIGGER": {
     "attack": 123,
-    "attack-flat": 22,
+    "attack-flat": 18,
     "trigger-radius": 30,
     "activation-delay": 450,
     "stop-moving-on-trigger": true,
@@ -266,7 +266,7 @@
 
   "BOMB_STEALTH": {
     "attack": 96,
-    "attack-flat": 17,
+    "attack-flat": 14,
     "trigger-radius": 35,
     "reveal-duration": 500,
     "reveal-interval": 2000,
