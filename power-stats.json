@@ -243,13 +243,13 @@
   "BOMB_MINE": {
     "attack": 104,
     "attack-flat": 16,
-    "trigger-radius": 35,
+    "-radius": 35,
     "activation-delay": 500
   },
   "BOMB_TIMER": {
     "attack": 142,
     "attack-flat": 22,
-    "trigger-radius": 60,
+    "-radius": 60,
     "activation-delay": 500,
     "explode-delay": 400,
     "cooldown": 6500
@@ -259,7 +259,7 @@
     "attack": 123,
     "attack-flat": 18,
     "trigger-radius": 30,
-    "activation-delay": 450,
+    "activation-delay": 500,
     "stop-moving-on-trigger": true,
     "explode-delay": 0
   },
