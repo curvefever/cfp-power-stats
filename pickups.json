@@ -150,7 +150,7 @@
       "multiplier": 3.0
     },
     "BOMB": {
-      "size": 2000
+      "size": 1000
     },
     "COOLDOWN_RESET": {}
   }
