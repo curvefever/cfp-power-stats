@@ -2,7 +2,7 @@
   "$schema": "./schemas/Pickups.schema.json",
 
   "min-interval": 100,
-  "max-interval": 4000,
+  "max-interval": 500,
 
   "start-spawn-count": 0,
   "start-index-delay": 100,
@@ -25,7 +25,7 @@
     "CORNER_SELF": 10,
     "SMALL_TURNS_SELF": 10,
     "SHIELD_SELF": 10,
-    "BOMB_SELF": 10,
+    "BOMB_SELF": 3,
     "COOLDOWN_RESET_SELF": 10,
 
     "SLOW_OTHER": 8,
