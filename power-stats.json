@@ -46,7 +46,7 @@
     "travel-radius": 10,
     "trigger-radius": 39,
     "activation-delay": 580,
-    "throw-speed": 5,
+    "throw-": 5,
     "effect-duration": 5000,
     "collide-while-moving": false
   },
@@ -126,7 +126,7 @@
     "shot-count": 9,
     "shot-interval": 55,
     "shot-spread": 15.6,
-    "bullet-speed": 4,
+    "bullet-": 4,
     "cooldown": 5000,
     "initial-cooldown": 5000
   },
@@ -137,7 +137,7 @@
     "cooldown": 3000,
     "initial-cooldown": 4250,
     "explosion-radius": 7.5,
-    "bullet-speed": 3,
+    "bullet-": 3,
     "search-radius": 45,
     "turn-angle": 32
   },
@@ -155,7 +155,7 @@
     "thickness": 8,
     "windup-time": 600,
     "rotate-multiplier": 0.035,
-    "speed-multiplier": 0.3,
+    "-multiplier": 0.3,
     "duration": 80,
     "distance": null
   },
@@ -170,7 +170,7 @@
     "thickness": 4,
     "windup-time": 400,
     "rotate-multiplier": 1,
-    "speed-multiplier": 0.7,
+    "-multiplier": 0.7,
     "duration": 1000,
     "distance": 80
   },
@@ -308,8 +308,8 @@
     "ease-in-duration": 0,
     "ease-out-duration": 0,
     "effect-duration": 3000,
-    "speed-multiplier": 2,
-    "rotate-multiplier": 1.65,
+    "speed-multiplier": 1.9,
+    "rotate-multiplier": 1.57,
     "game-mode": {
       "TEAMS": {
         "initial-cooldown": 7000,
