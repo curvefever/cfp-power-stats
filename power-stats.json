@@ -307,9 +307,9 @@
 
     "ease-in-duration": 0,
     "ease-out-duration": 0,
-    "effect-duration": 3000,
-    "speed-multiplier": 1.9,
-    "rotate-multiplier": 1.57,
+    "effect-duration": 2500,
+    "speed-multiplier": 2,
+    "rotate-multiplier": 1.65,
     "game-mode": {
       "TEAMS": {
         "initial-cooldown": 7000,
