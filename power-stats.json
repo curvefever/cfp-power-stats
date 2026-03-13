@@ -258,7 +258,7 @@
   "BOMB_TRIGGER": {
     "attack": 123,
     "attack-flat": 18,
-    "trigger-radius": 30,
+    "trigger-radius": 22,
     "activation-delay": 500,
     "stop-moving-on-trigger": true,
     "explode-delay": 0
