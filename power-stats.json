@@ -244,6 +244,7 @@
     "attack": 104,
     "attack-flat": 16,
     "-radius": 35,
+    "explode-delay": 0,
     "activation-delay": 500
   },
   "BOMB_TIMER": {
