@@ -29,7 +29,7 @@
 
     "travel-radius": 1,
     "trigger-radius": 40,
-    "activation-delay": 600,
+    "activation-delay": 500,
     "throw-speed": 5
   },
   "default_POWER": {
@@ -244,7 +244,6 @@
     "attack": 104,
     "attack-flat": 16,
     "-radius": 35,
-    "explode-delay": 0,
     "activation-delay": 500
   },
   "BOMB_TIMER": {
