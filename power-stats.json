@@ -259,7 +259,7 @@
     "attack": 123,
     "attack-flat": 18,
     "trigger-radius": 22,
-    "activation-delay": 500,
+    "activation-delay": 450,
     "stop-moving-on-trigger": true,
     "explode-delay": 0
   },
