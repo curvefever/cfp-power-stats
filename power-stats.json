@@ -366,9 +366,9 @@
     "defense": 150,
     "cooldown": 6000,
 
-    "activation-delay": 400,
+    "activation-delay": 250,
     "throw-speed": 5,
-    "range": 1200,
+    "range": 200,
     "copy-direction": true,
     "freeze-on-schedule": true,
     "game-mode": {
