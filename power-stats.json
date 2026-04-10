@@ -126,7 +126,6 @@
     "shot-count": 9,
     "shot-interval": 55,
     "shot-spread": 15.6,
-    "explosion-radius": 2.5,
     "bullet-": 4,
     "cooldown": 5000,
     "initial-cooldown": 5000
@@ -183,7 +182,7 @@
     "initial-cooldown": 5500,
 
     "effect-duration": 400,
-    "radius": 25
+    "radius": 27.5
   },
 
   "ITEM_THICK": {
