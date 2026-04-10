@@ -126,6 +126,7 @@
     "shot-count": 9,
     "shot-interval": 55,
     "shot-spread": 15.6,
+    "explosion-radius": 2.5,
     "bullet-": 4,
     "cooldown": 5000,
     "initial-cooldown": 5000
