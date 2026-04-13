@@ -182,7 +182,7 @@
     "initial-cooldown": 5500,
 
     "effect-duration": 400,
-    "radius": 27.5
+    "radius": 25
   },
 
   "ITEM_THICK": {
@@ -364,9 +364,9 @@
 
   "PWR_TELEPORT": {
     "defense": 150,
-    "cooldown": 6000,
+    "cooldown": 6500,
 
-    "activation-delay": 250,
+    "activation-delay": 325,
     "throw-speed": 5,
     "range": 200,
     "copy-direction": true,
