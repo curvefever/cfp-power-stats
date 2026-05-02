@@ -49,6 +49,12 @@
     "throw-": 5,
     "effect-duration": 5000,
     "collide-while-moving": false
+        "game-mode": {
+          "ONE_VS_ONE_DEFAULT":{
+            "trigger-radius": 33,
+            "cooldown": 5000
+          {
+        {
   },
   "default_SPECIAL": {},
 
