@@ -3,7 +3,7 @@
   "item-throw-speed-multiplier": 0,
   "item-throw-cooldown-multiplier": 0,
   "no-module-defense": 0,
-  "flat-score-exponent": 0.5,
+  "flat-score-exponent": 0.7,
   "flat-defense-boost-threshold": 0.75,
   "flat-defense-boost-max": 0.5,
   "max-steal-percentage": {
