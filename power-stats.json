@@ -392,7 +392,7 @@
   },
   "PWR_SHIELD": {
     "defense": 250,
-    "effect-duration": 1.5,
+    "effect-duration": 1500,
     "radius": 25,
     "bounce-attack-modifier": 0.8,
     "bounce": true,
@@ -419,7 +419,7 @@
   "PWR_HIDE": {
     "defense": 100,
     "cooldown": 5700,
-    "effect-duration": 3.5,
+    "effect-duration": 3500,
     "game-mode": {
       "TEAMS_SURVIVAL": {
         "cooldown": 5500
@@ -450,7 +450,7 @@
   "PWR_TELEPORT": {
     "defense": 60,
     "cooldown": 6250,
-    "activation-delay": 300,
+    "activation-delay": 325,
     "throw-speed": 5,
     "range": 300,
     "copy-direction": true,
@@ -490,7 +490,7 @@
     "defense": 70,
     "cooldown": 6000,
     "ease-in-duration": 0,
-    "ease-out-duration": 0.2,
+    "ease-out-duration": 200,
     "effect-duration": 200,
     "speed-multiplier": 5,
     "rotate-multiplier": 0,
