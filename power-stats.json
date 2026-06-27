@@ -443,7 +443,7 @@
     "cooldown": 6250,
     "activation-delay": 300,
     "throw-speed": 5,
-    "range": 400,
+    "range": 300,
     "copy-direction": true,
     "freeze-on-schedule": true,
     "game-mode": {
