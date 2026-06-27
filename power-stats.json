@@ -21,7 +21,7 @@
     "hole-radius": 0,
     "range": 999999,
     "game-mode": {
-      "FFA_DEFAULT": {
+      "TEAMS_CLASSIC": {
         "initial-cooldown": 4750
       }
     }
@@ -69,21 +69,23 @@
   },
   "default_SPECIAL": {},
   "SHOT_SINGLE": {
-    "attack": 158,
+    "attack": 153,
     "attack-flat": 23,
     "charge-time": 0,
     "game-mode": {
       "TEAMS_CLASSIC": {
-        "attack-flat": 24
+        "attack-flat": 24,
+        "attack": 160
       }
     }
   },
   "SHOT_DOUBLE": {
-    "attack": 136,
+    "attack": 133,
     "attack-flat": 20,
     "game-mode": {
       "TEAMS_CLASSIC": {
-        "attack-flat": 21
+        "attack-flat": 21,
+        "attack": 140
       }
     },
     "spawn-locations": [
@@ -100,11 +102,12 @@
     ]
   },
   "SHOT_SIDE": {
-    "attack": 133,
+    "attack": 127,
     "attack-flat": 19,
     "game-mode": {
       "TEAMS_CLASSIC": {
-        "attack-flat": 20
+        "attack-flat": 20,
+        "attack": 133
       }
     },
     "spawn-locations": [
@@ -121,12 +124,13 @@
     ]
   },
   "SHOT_MULTI": {
-    "attack": 124,
+    "attack": 120,
     "attack-flat": 18,
     "cooldown": 4250,
     "game-mode": {
       "TEAMS_CLASSIC": {
-        "attack-flat": 19
+        "attack-flat": 19,
+        "attack": 127
       }
     },
     "spawn-locations": [
@@ -153,7 +157,7 @@
     ]
   },
   "SHOT_SCATTER": {
-    "attack": 194,
+    "attack": 180,
     "attack-flat": 27,
     "bullet-size": 2,
     "range": 76,
@@ -165,12 +169,13 @@
     "initial-cooldown": 5500,
     "game-mode": {
       "TEAMS_CLASSIC": {
-        "attack-flat": 28
+        "attack-flat": 28,
+        "attack": 187
       }
     }
   },
   "SHOT_HOMING": {
-    "attack": 67,
+    "attack": 87,
     "attack-flat": 13,
     "cooldown": 3500,
     "bullet-speed": 3,
@@ -179,9 +184,9 @@
   },
   "SHOT_LASER": {
     "not-use-group": true,
-    "max-attack": 120,
+    "max-attack": 140,
     "max-attack-flat": 21,
-    "min-attack": 120,
+    "min-attack": 140,
     "min-attack-flat": 21,
     "min-attack-angle": 15,
     "defense": 0,
@@ -195,7 +200,7 @@
   },
   "SHOT_SABER": {
     "not-use-group": true,
-    "attack": 103,
+    "attack": 100,
     "attack-flat": 15,
     "defense": 0,
     "cooldown": 6000,
@@ -207,7 +212,7 @@
     "distance": 80
   },
   "PWR_ZAP": {
-    "attack": 182,
+    "attack": 167,
     "attack-flat": 25,
     "cooldown": 5500,
     "initial-cooldown": 5500,
@@ -215,39 +220,40 @@
     "radius": 25,
     "game-mode": {
       "TEAMS_CLASSIC": {
-        "attack-flat": 26
+        "attack-flat": 26,
+        "attack": 173
       }
     }
   },
   "ITEM_THICK": {
-    "attack": 130,
+    "attack": 133,
     "attack-flat": 20,
     "thickness-multiplier": 1.65
   },
   "ITEM_LOWREZ": {
-    "attack": 126,
+    "attack": 127,
     "attack-flat": 19,
     "intensity": 11
   },
   "ITEM_TRIPPY": {
-    "attack": 121,
+    "attack": 120,
     "attack-flat": 18,
     "intensity": 3
   },
   "ITEM_BLIND": {
-    "attack": 121,
+    "attack": 120,
     "attack-flat": 18,
     "intensity": 0.0,
     "effect-duration": 1600
   },
   "ITEM_CLOCKBLOCK": {
-    "attack": 121,
+    "attack": 120,
     "attack-flat": 18,
     "cooldown-multiplier": 0,
     "effect-duration": 5000
   },
   "ITEM_SPEEDY": {
-    "attack": 112,
+    "attack": 113,
     "attack-flat": 17,
     "effect-duration": 2000,
     "speed-multiplier": 1.8,
@@ -256,18 +262,18 @@
     "ease-out-duration": 0
   },
   "ITEM_REVERSE": {
-    "attack": 105,
+    "attack": 107,
     "attack-flat": 16,
     "effect-start-delay": 0
   },
   "ITEM_STEERLESS": {
-    "attack": 115,
+    "attack": 113,
     "attack-flat": 17,
     "effect-start-delay": 0,
     "rotate-multiplier": 0.75
   },
   "BOMB_MINE": {
-    "attack": 104,
+    "attack": 113,
     "attack-flat": 17,
     "trigger-radius": 35,
     "activation-delay": 500,
@@ -277,12 +283,13 @@
       },
       "TEAMS_CLASSIC": {
         "cooldown": 6250,
-        "attack-flat": 17
+        "attack-flat": 17,
+        "attack": 113
       }
     }
   },
   "BOMB_TIMER": {
-    "attack": 142,
+    "attack": 153,
     "attack-flat": 23,
     "trigger-radius": 60,
     "activation-delay": 500,
@@ -295,7 +302,7 @@
     }
   },
   "BOMB_TRIGGER": {
-    "attack": 123,
+    "attack": 127,
     "attack-flat": 19,
     "trigger-radius": 30,
     "activation-delay": 450,
@@ -309,7 +316,7 @@
     }
   },
   "BOMB_STEALTH": {
-    "attack": 96,
+    "attack": 100,
     "attack-flat": 15,
     "trigger-radius": 35,
     "reveal-duration": 500,
@@ -330,8 +337,8 @@
     "defense": 100,
     "cooldown": 5250,
     "ease-in-duration": 0,
-    "ease-out-duration": 0.5,
-    "effect-duration": 2,
+    "ease-out-duration": 500,
+    "effect-duration": 2000,
     "speed-multiplier": 0.4,
     "rotate-multiplier": 1.1,
     "game-mode": {
@@ -349,7 +356,7 @@
   "PWR_JUMP": {
     "defense": 60,
     "cooldown": 6250,
-    "effect-duration": 0.45,
+    "effect-duration": 450,
     "game-mode": {
       "TEAMS_SURVIVAL": {
         "cooldown": 7250
@@ -366,7 +373,7 @@
     "defense": 100,
     "ease-in-duration": 0,
     "ease-out-duration": 0,
-    "effect-duration": 2.7,
+    "effect-duration": 2700,
     "speed-multiplier": 2,
     "rotate-multiplier": 1.65,
     "game-mode": {
@@ -399,7 +406,7 @@
     "cooldown": 1000,
     "thickness-multiplier": 0.5,
     "rotate-multiplier": 1.1,
-    "effect-duration": 999999,
+    "effect-duration": 99999,
     "initial-cooldown": 4000,
     "game-mode": {
       "TEAMS_CLASSIC": {
@@ -427,7 +434,7 @@
   "PWR_HOOK": {
     "defense": 130,
     "cooldown": 7000,
-    "effect-duration": 4.5,
+    "effect-duration": 4500,
     "angle": 90,
     "game-mode": {
       "TEAMS_SURVIVAL": {
@@ -435,8 +442,8 @@
       },
       "TEAMS_CLASSIC": {
         "defense": 130
+      }
     }
-  }
   },
   "PWR_TELEPORT": {
     "defense": 60,
@@ -482,7 +489,7 @@
     "cooldown": 6000,
     "ease-in-duration": 0,
     "ease-out-duration": 0.2,
-    "effect-duration": 2.7,
+    "effect-duration": 500,
     "speed-multiplier": 5,
     "rotate-multiplier": 0,
     "explode-radius-multiplier": 5,
