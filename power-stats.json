@@ -214,8 +214,8 @@
   "PWR_ZAP": {
     "attack": 167,
     "attack-flat": 25,
-    "cooldown": 5500,
-    "initial-cooldown": 5500,
+    "cooldown": 5750,
+    "initial-cooldown": 5750,
     "effect-duration": 400,
     "radius": 25,
     "game-mode": {
@@ -283,8 +283,8 @@
       },
       "TEAMS_CLASSIC": {
         "cooldown": 6250,
-        "attack-flat": 17,
-        "attack": 113
+        "attack-flat": 16,
+        "attack": 104
       }
     }
   },
@@ -365,6 +365,7 @@
         "cooldown": 6250
       },
       "TEAMS_CLASSIC": {
+        "cooldown": 6500
         "defense": 180
       }
     }
@@ -384,13 +385,14 @@
         "cooldown": 6500
       },
       "TEAMS_CLASSIC": {
+        "cooldown": 6500
         "defense": 120
       }
     }
   },
   "PWR_SHIELD": {
     "defense": 250,
-    "effect-duration": 1.5,
+    "effect-duration": 1500,
     "radius": 25,
     "bounce-attack-modifier": 0.8,
     "bounce": true,
@@ -417,7 +419,7 @@
   "PWR_HIDE": {
     "defense": 100,
     "cooldown": 5700,
-    "effect-duration": 3.5,
+    "effect-duration": 3500,
     "game-mode": {
       "TEAMS_SURVIVAL": {
         "cooldown": 5500
@@ -432,7 +434,7 @@
     }
   },
   "PWR_HOOK": {
-    "defense": 130,
+    "defense": 50,
     "cooldown": 7000,
     "effect-duration": 4500,
     "angle": 90,
@@ -448,7 +450,7 @@
   "PWR_TELEPORT": {
     "defense": 60,
     "cooldown": 6250,
-    "activation-delay": 300,
+    "activation-delay": 325,
     "throw-speed": 5,
     "range": 300,
     "copy-direction": true,
@@ -485,11 +487,11 @@
     }
   },
   "PWR_BURST": {
-    "defense": 7,
+    "defense": 70,
     "cooldown": 6000,
     "ease-in-duration": 0,
-    "ease-out-duration": 0.2,
-    "effect-duration": 500,
+    "ease-out-duration": 200,
+    "effect-duration": 200,
     "speed-multiplier": 5,
     "rotate-multiplier": 0,
     "explode-radius-multiplier": 5,
