@@ -417,7 +417,7 @@
   "PWR_HIDE": {
     "defense": 100,
     "cooldown": 5700,
-    "effect-duration": 3.5,
+    "effect-duration": 3500,
     "game-mode": {
       "TEAMS_SURVIVAL": {
         "cooldown": 5500
@@ -485,11 +485,11 @@
     }
   },
   "PWR_BURST": {
-    "defense": 7,
+    "defense": 70,
     "cooldown": 6000,
     "ease-in-duration": 0,
     "ease-out-duration": 0.2,
-    "effect-duration": 500,
+    "effect-duration": 200,
     "speed-multiplier": 5,
     "rotate-multiplier": 0,
     "explode-radius-multiplier": 5,
