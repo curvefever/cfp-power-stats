@@ -214,8 +214,7 @@
   "PWR_ZAP": {
     "attack": 167,
     "attack-flat": 25,
-    "cooldown": 5500,
-    "initial-cooldown": 5500,
+    "cooldown": 5750,
     "effect-duration": 400,
     "radius": 25,
     "game-mode": {
@@ -274,7 +273,7 @@
   },
   "BOMB_MINE": {
     "attack": 113,
-    "attack-flat": 17,
+    "attack-flat": 15,
     "trigger-radius": 35,
     "activation-delay": 500,
     "game-mode": {
