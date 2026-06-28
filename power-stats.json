@@ -31,7 +31,7 @@
     "attack-flat": 0,
     "defense": 0,
     "cooldown": 6000,
-    "travel-radius": 10,
+    "travel-radius": 1,
     "trigger-radius": 40,
     "activation-delay": 600,
     "throw-speed": 5,
