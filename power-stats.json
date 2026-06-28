@@ -273,7 +273,7 @@
   },
   "BOMB_MINE": {
     "attack": 113,
-    "attack-flat": 15,
+    "attack-flat": 17,
     "trigger-radius": 35,
     "activation-delay": 500,
     "game-mode": {
@@ -282,8 +282,8 @@
       },
       "TEAMS_CLASSIC": {
         "cooldown": 6250,
-        "attack-flat": 17,
-        "attack": 113
+        "attack-flat": 16,
+        "attack": 104
       }
     }
   },
