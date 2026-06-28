@@ -433,8 +433,8 @@
     }
   },
   "PWR_HOOK": {
-    "defense": 130,
-    "cooldown": 6750,
+    "defense": 50,
+    "cooldown": 7000,
     "effect-duration": 4500,
     "angle": 90,
     "game-mode": {
