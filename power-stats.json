@@ -494,7 +494,7 @@
     "effect-duration": 200,
     "speed-multiplier": 5,
     "rotate-multiplier": 0,
-    "explode-radius-multiplier": 5,
+    "explode-radius-multiplier": 4,
     "game-mode": {
       "TEAMS_SURVIVAL": {
         "cooldown": 7000
