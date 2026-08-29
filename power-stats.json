@@ -3,7 +3,7 @@
   "item-throw-speed-multiplier": 0,
   "item-throw-cooldown-multiplier": 0,
   "no-module-defense": 0,
-  "flat-score-exponent": 0.5,
+  "flat-score-exponent": 0.7,
   "flat-defense-boost-threshold": 0.75,
   "flat-defense-boost-max": 0.5,
   "max-steal-percentage": {
@@ -199,6 +199,16 @@
     "duration": 80,
     "distance": null
   },
+  "SHOT_BOOMERANG": {
+    "attack": 120,
+    "attack-flat": 15,
+    "bullet-size": 4,
+    "bullet-speed": 8,
+    "cooldown": 5000,
+    "throw-distance": 150,
+    "collide-with-curves": false,
+    "despawn-on-hit": false
+  },
   "SHOT_SABER": {
     "not-use-group": true,
     "attack": 100,
@@ -320,7 +330,7 @@
     "attack-flat": 15,
     "trigger-radius": 35,
     "reveal-duration": 500,
-    "reveal-interval": 2,
+    "reveal-interval": 2000,
     "life-duration": 20000,
     "blink-speed": 1,
     "hidden-alpha": 0,
