@@ -200,10 +200,10 @@
     "distance": null
   },
   "SHOT_BOOMERANG": {
-    "attack": 120,
+    "attack": 100,
     "attack-flat": 15,
     "bullet-size": 4,
-    "bullet-speed": 8,
+    "bullet-speed": 6,
     "cooldown": 5000,
     "throw-distance": 150,
     "collide-with-curves": false,
