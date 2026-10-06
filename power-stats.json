@@ -423,6 +423,8 @@
     "game-mode": {
       "TEAMS_CLASSIC": {
         "defense": 160,
+        "game-mode": {
+      "TEAMS_SURVIVAL": {
         "thickness-multiplier": 0.7
       }
     }
