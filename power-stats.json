@@ -158,7 +158,7 @@
     ]
   },
   "SHOT_SCATTER": {
-    "attack": 1800,
+    "attack": 180,
     "attack-flat": 27,
     "bullet-size": 2,
     "range": 76,
