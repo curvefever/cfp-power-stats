@@ -158,7 +158,7 @@
     ]
   },
   "SHOT_SCATTER": {
-    "attack": 180,
+    "attack": 1800,
     "attack-flat": 27,
     "bullet-size": 2,
     "range": 76,
@@ -421,11 +421,11 @@
     "effect-duration": 99999,
     "initial-cooldown": 4000,
     "game-mode": {
+      "TEAMS_SURVIVAL": {
+        "thickness-multiplier": 0.75
+      },
       "TEAMS_CLASSIC": {
         "defense": 160
-      },
-      "TEAMS_SURVIVAL": {
-        "thickness-multiplier": 0.7
       }
     }
   },
