@@ -470,7 +470,7 @@
     "freeze-on-schedule": true,
     "game-mode": {
       "TEAMS_SURVIVAL": {
-        "cooldown": 9250
+        "cooldown": 8500
       },
       "ONE_VS_ONE_DEFAULT": {
         "cooldown": 6750
