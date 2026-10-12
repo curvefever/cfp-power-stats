@@ -422,7 +422,7 @@
     "initial-cooldown": 4000,
     "game-mode": {
       "TEAMS_SURVIVAL": {
-        "thickness-multiplier": 0.75
+        "thickness-multiplier": 0.8
       },
       "TEAMS_CLASSIC": {
         "defense": 160
