@@ -226,6 +226,7 @@
     "attack": 167,
     "attack-flat": 25,
     "cooldown": 5750,
+    "initial-cooldown": 5750,
     "effect-duration": 400,
     "radius": 25,
     "game-mode": {
